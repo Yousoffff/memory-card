@@ -56,6 +56,17 @@ let registerKey1 = function(){
         // }
 }
 
+let registerKey2 = function(){
+    // let counter = 0;
+    // for(let i in datas){
+        
+        document.getElementById("testcard2").innerHTML = "neeeegar";
+        // document.getElementsByClassName("card__face")[counter].setAttribute("id",i);
+        // document.getElementById("heading").innerHTML = "negar";
+        // counter++;
+        // }
+}
+
 
 var cards = document.querySelectorAll('.card');
 
@@ -66,4 +77,5 @@ var cards = document.querySelectorAll('.card');
 });
 
 registerKey1();
+registerKey2();
 
