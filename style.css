@@ -1,0 +1,42 @@
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    /* background-color: aqua; */
+}
+.input form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    /* background-color: blue; */
+    height: 70%;
+    width: 60%;
+}
+.input input{
+    background-color: rgb(242, 242, 242);
+    height: 50%;
+    width: 40%;
+    font-size: large;
+}
+
+.holder{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(150px, 1fr));
+    grid-template-rows: auto;
+    justify-items: center;
+    background-color: aqua;
+    height: max-content;
+    width: 100vw;
+    gap: 20px;
+}
+.card{
+    background-color: blue;
+    height: 20vh;
+    width: 60%;
+    display:flex ;
+    justify-content: center ;
+    align-items:center ;
+    font-size: 24px;
+}
